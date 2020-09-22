@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthPolicyRepro", "Source\AuthPolicyRepro.csproj", "{1C0044C7-4563-4A84-AF13-B1B518F7367D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthPolicyReproTests", "Test\AuthPolicyReproTests.csproj", "{73A71B70-5430-4268-8360-3C20D7D24684}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C0044C7-4563-4A84-AF13-B1B518F7367D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C0044C7-4563-4A84-AF13-B1B518F7367D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C0044C7-4563-4A84-AF13-B1B518F7367D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C0044C7-4563-4A84-AF13-B1B518F7367D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73A71B70-5430-4268-8360-3C20D7D24684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73A71B70-5430-4268-8360-3C20D7D24684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73A71B70-5430-4268-8360-3C20D7D24684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73A71B70-5430-4268-8360-3C20D7D24684}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CCF686B6-BA3B-4DFA-A43B-99369F58465C}
+	EndGlobalSection
+EndGlobal
