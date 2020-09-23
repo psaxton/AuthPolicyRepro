@@ -1,10 +1,11 @@
 AuthPolicyRepro
 ===============
 
-This project demonstrates a difference in how Authorization Policies are handled in AspNetCore 2.1. When an
-authentication scheme is specifically required via the `.AddAuthenticationSchemes()` method the context principal
-which may have been modified in a previous step of the AAA pipeline is overwritten. The behaviour is different
-when the `.AddAuthenticationSchemes()` method is not called.
+This project demonstrates a difference in how Authorization Policies are handled in AspNetCore 2.1. The difference is
+confirmed to exist in AspNetCore3.1 in the dotnet3.1 branch of this repository. When an authentication scheme is
+specifically required via the `.AddAuthenticationSchemes()` method the context principal which may have been modified
+in a previous step of the AAA pipeline is overwritten. The behaviour is different when the
+`.AddAuthenticationSchemes()` method is not called.
 
 Source/Startup.cs
 -----------------
