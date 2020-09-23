@@ -58,10 +58,10 @@ namespace AuthPolicyRepro
 				);
 			});
 
-			services.AddMvc();
+			services.AddMvc(options => options.EnableEndpointRouting = false);
 		}
 
-		public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+		public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
 		{
 			app.UseDeveloperExceptionPage();
 			app.UseAuthentication();
